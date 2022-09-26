@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mamon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -12,16 +18,23 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="header">
-      <a href="" class="header__logo"><span></span><span>mamon</span></a>
-      <nav>
-        <ul class="header__links">
-          <li><a>Services</a></li>
-          <li><a>Clients</a></li>
-          <li><a>Our team</a></li>
-          <li><button type="button">Contact Us</button></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="page">
+      <header class="header">
+        <a href="" class="logo">
+          <span class="logo__img"></span>
+          <span class="logo__text">mamon</span>
+        </a>
+        <nav>
+          <ul class="header__links">
+            <li class="header__link"><a href="">Services</a></li>
+            <li class="header__link"><a href="">Clients</a></li>
+            <li class="header__link"><a href="">Our team</a></li>
+            <li class="header__link">
+              <button type="button">Contact Us</button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
   </body>
 </html>

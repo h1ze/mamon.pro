@@ -1,9 +1,42 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 1180px;
-    margin: 0 auto;
+.page {
+  font-family: "Ubuntu", sans-serif;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.header__links {
+  display: flex;
+  list-style: none;
+}
+
+.header__link {
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo__img {
+  display: block;
+  width: 58px;
+  height: 58px;
+  background: url("../img/logo.svg");
+  margin-right: 20px;
+}
+
+.logo__text {
+  font-size: 24px;
+  color: #202020;
+  font-weight: bold;
+}
