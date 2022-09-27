@@ -9,6 +9,9 @@
   width: 100%;
   max-width: 1180px;
   margin: 0 auto;
+  font-weight: bold;
+  padding: 30px 15px 0;
+  box-sizing: border-box;
 }
 
 .header__links {
@@ -30,6 +33,8 @@
   color: #fff;
   border-radius: 5px;
   padding: 10px 15px;
+  border: none;
+  font-weight: bold;
 }
 
 .logo {
@@ -49,5 +54,4 @@
 .logo__text {
   font-size: 24px;
   color: #202020;
-  font-weight: bold;
 }
