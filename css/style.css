@@ -14,11 +14,22 @@
 .header__links {
   display: flex;
   list-style: none;
+  align-items: center;
 }
 
 .header__link {
   margin-left: 15px;
   font-size: 14px;
+  text-decoration: none;
+  color: #202020;
+}
+
+.header__button {
+  margin-left: 15px;
+  background-color: #5528ff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
 }
 
 .logo {
