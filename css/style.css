@@ -82,3 +82,13 @@
   background-color: #fff;
   padding: 5px 15px;
 }
+
+.page__button {
+  margin-left: 15px;
+  background-color: #5528ff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  border: none;
+  font-weight: bold;
+}
