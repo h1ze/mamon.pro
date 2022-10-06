@@ -55,3 +55,30 @@
   font-size: 24px;
   color: #202020;
 }
+
+.wrap {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.page {
+  padding: 40px 0;
+  position: relative;
+}
+
+.page-top {
+  border-top: 1px solid #c2c2c2;
+}
+
+.page__title {
+  position: absolute;
+  top: -24px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  color: #c2c2c2;
+  background-color: #fff;
+  padding: 5px 15px;
+}
