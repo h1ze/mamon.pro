@@ -111,12 +111,25 @@
   grid-template: 50% 50% / 50% 50%;
 }
 
+.services__item {
+  display: flex;
+  align-items: center;
+}
+
+.services__img {
+  flex-basis: 120px;
+  text-align: center;
+}
+
+.services__text {
+  flex-basis: calc(100% - 120px);
+}
 .services__title {
   font-size: 28px;
   font-weight: 400;
 }
 
-.services__text {
+.services__paragraph {
   font-size: 14px;
   color: #b2b2b2;
   line-height: 1.5;
