@@ -135,3 +135,9 @@
   color: #b2b2b2;
   line-height: 1.5;
 }
+
+.clients {
+  display: grid;
+  grid-template: 120px 120px / repeat(4, 25%);
+  text-align: center;
+}
