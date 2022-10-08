@@ -141,3 +141,8 @@
   grid-template: 120px 120px / repeat(4, 25%);
   text-align: center;
 }
+
+.team {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 33%);
+}
