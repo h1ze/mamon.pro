@@ -138,11 +138,25 @@
 
 .clients {
   display: grid;
-  grid-template: 120px 120px / repeat(4, 25%);
+  grid-template: repeat(2, 1fr) / repeat(4, 25%);
   text-align: center;
 }
 
 .team {
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(3, 33%);
+  grid-row-gap: 40px;
+}
+
+.team__item {
+  display: flex;
+  align-items: center;
+}
+
+.team__img {
+  margin-right: 20px;
+}
+
+.team__text {
+  flex-basis: calc(100% - 100px);
 }
