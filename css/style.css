@@ -179,6 +179,8 @@
 }
 
 .social__link {
+  display: flex;
   text-decoration: none;
   margin-left: 15px;
+  align-items: center;
 }
