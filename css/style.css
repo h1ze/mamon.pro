@@ -160,3 +160,8 @@
 .team__text {
   flex-basis: calc(100% - 100px);
 }
+
+.footer {
+  padding: 20px 0;
+  background-color: #f7f7f7;
+}
