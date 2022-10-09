@@ -166,6 +166,12 @@
   background-color: #f7f7f7;
 }
 
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .social {
   list-style-type: none;
   padding: 0;
@@ -174,4 +180,5 @@
 
 .social__link {
   text-decoration: none;
+  margin-left: 15px;
 }
