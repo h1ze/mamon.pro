@@ -20,21 +20,21 @@
   align-items: center;
 }
 
+.header__item {
+  margin-left: 24px;
+}
 .header__link {
-  margin-left: 15px;
   font-size: 14px;
   text-decoration: none;
   color: #202020;
 }
 
 .header__button {
-  margin-left: 15px;
   background-color: #5528ff;
   color: #fff;
   border-radius: 5px;
-  padding: 10px 15px;
+  padding: 5px 10px;
   border: none;
-  font-weight: bold;
 }
 
 .logo {
@@ -48,7 +48,7 @@
   width: 58px;
   height: 58px;
   background: url("../img/logo.svg");
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 .logo__text {
@@ -180,7 +180,6 @@
 
 .social__link {
   display: flex;
-  text-decoration: none;
   margin-left: 15px;
   align-items: center;
 }
