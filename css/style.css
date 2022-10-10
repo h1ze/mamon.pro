@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1180px;
+  max-width: 1240px;
   margin: 0 auto;
   font-weight: bold;
   padding: 30px 15px 0;
@@ -21,7 +21,7 @@
 }
 
 .header__item {
-  margin-left: 24px;
+  margin-left: 40px;
 }
 .header__link {
   font-size: 14px;
@@ -48,7 +48,7 @@
   width: 58px;
   height: 58px;
   background: url("../img/logo.svg");
-  margin-right: 25px;
+  margin: 0 25px;
 }
 
 .logo__text {
