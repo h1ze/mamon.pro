@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1240px;
+  max-width: 1212px;
   margin: 0 auto;
   font-weight: bold;
   padding: 30px 15px 50px;
@@ -49,7 +49,7 @@
   width: 58px;
   height: 58px;
   background: url("../img/logo.svg");
-  margin: 0 25px;
+  margin-right: 25px;
 }
 
 .logo__text {
@@ -59,14 +59,15 @@
 
 .wrap {
   width: 100%;
-  max-width: 1240px;
+  max-width: 1212px;
   margin: 0 auto;
   padding: 0 15px;
   box-sizing: border-box;
 }
 
 .page {
-  padding: 40px 0;
+  padding-top: 42px;
+  padding-bottom: 110px;
   position: relative;
 }
 
@@ -90,14 +91,17 @@
   color: #202020;
   font-weight: 700;
   letter-spacing: -0.5px;
+  margin-top: 35px;
+  margin-bottom: 20px;
 }
 
 .text-main {
   font-size: 32px;
-  line-height: 1.5;
+  line-height: 1.7;
   color: #4f4f4f;
   max-width: 750px;
-  margin-bottom: 2em;
+  margin-top: 0px;
+  margin-bottom: 1.6em;
 }
 
 .page__button {
