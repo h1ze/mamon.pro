@@ -10,7 +10,7 @@
   max-width: 1240px;
   margin: 0 auto;
   font-weight: bold;
-  padding: 30px 15px 0;
+  padding: 30px 15px 50px;
   box-sizing: border-box;
 }
 
@@ -20,9 +20,10 @@
   align-items: center;
 }
 
-.header__item {
-  margin-left: 40px;
+.header__item:not(:last-child) {
+  margin-right: 40px;
 }
+
 .header__link {
   font-size: 14px;
   text-decoration: none;
@@ -33,7 +34,7 @@
   background-color: #5528ff;
   color: #fff;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 3px 12px;
   border: none;
 }
 
@@ -88,6 +89,7 @@
   font-size: 56px;
   color: #202020;
   font-weight: 700;
+  letter-spacing: -0.5px;
 }
 
 .text-main {
