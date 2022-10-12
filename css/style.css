@@ -114,8 +114,11 @@
 }
 
 .services {
+  margin-top: 50px;
   display: grid;
   grid-template: 50% 50% / 50% 50%;
+  grid-row-gap: 30px;
+  grid-column-gap: 70px;
 }
 
 .services__item {
@@ -124,17 +127,18 @@
 }
 
 .services__img {
-  flex-basis: 120px;
+  flex-basis: 165px;
   text-align: center;
 }
 
 .services__text {
-  flex-basis: calc(70% - 120px);
-  line-height: 1.1;
+  flex-basis: calc(80% - 165px);
 }
+
 .services__title {
   font-size: 28px;
   font-weight: 400;
+  margin: 18px 0;
 }
 
 .services__paragraph {
