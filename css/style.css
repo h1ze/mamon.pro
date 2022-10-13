@@ -59,8 +59,9 @@
 
 .wrap {
   width: 100%;
-  max-width: 1170px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
   box-sizing: border-box;
 }
 
@@ -96,7 +97,7 @@
   margin-bottom: 20px;
 }
 
-.text-main {
+.paragraph-main {
   font-size: 32px;
   line-height: 1.7;
   color: #4f4f4f;
@@ -151,18 +152,19 @@
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(4, 25%);
   grid-row-gap: 43px;
-  text-align: center;
 }
 
 .team {
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(3, 33%);
-  grid-row-gap: 40px;
+  grid-row-gap: 50px;
+  grid-column-gap: 25px;
 }
 
 .team__item {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  text-align: center;
 }
 
 .team__img {
@@ -203,6 +205,9 @@
 
 .social__link {
   display: flex;
-  margin-left: 15px;
   align-items: center;
+}
+
+.social__link:not(:last-child) {
+  margin-right: 40px;
 }
