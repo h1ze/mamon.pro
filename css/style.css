@@ -65,7 +65,7 @@
 }
 
 .page {
-  padding-top: 90px;
+  padding-top: 80px;
   padding-bottom: 110px;
   position: relative;
 }
@@ -76,13 +76,15 @@
 
 .page__title {
   position: absolute;
-  top: -24px;
+  top: -28px;
+  left: 235px;
   font-size: 14px;
   font-weight: 300;
   line-height: 16px;
   color: #c2c2c2;
   background-color: #fff;
   padding: 5px 15px;
+  letter-spacing: 1.7px;
 }
 
 .title-main {
@@ -114,11 +116,10 @@
 }
 
 .services {
-  margin-top: 50px;
   display: grid;
   grid-template: 50% 50% / 50% 50%;
-  grid-row-gap: 30px;
-  grid-column-gap: 70px;
+  grid-row-gap: 34px;
+  grid-column-gap: 106px;
 }
 
 .services__item {
@@ -127,12 +128,11 @@
 }
 
 .services__img {
-  flex-basis: 165px;
-  text-align: center;
+  flex-basis: 125px;
 }
 
 .services__text {
-  flex-basis: calc(80% - 165px);
+  flex-basis: calc(80% - 125px);
 }
 
 .services__title {
@@ -148,7 +148,6 @@
 }
 
 .clients {
-  margin-top: 45px;
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(4, 25%);
   grid-row-gap: 43px;
